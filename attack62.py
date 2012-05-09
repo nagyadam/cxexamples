@@ -13,7 +13,7 @@ import pylab
 import igraph
 import cxnet
 
-class Network(igraph.Graph):
+class Network(cxnet.Network):
     def attack(self):
         li = []
         comp = []
